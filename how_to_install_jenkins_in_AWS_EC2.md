@@ -1,11 +1,14 @@
 1. Installing Jenkins
 
 First, update the default Ubuntu packages lists for upgrades with the following command:
+```
 sudo apt-get update
+```
 
 Then, run the following command to install JDK 11:
+```
 sudo apt-get install openjdk-11-jdk
-
+```
 
 Now, we will install Jenkins itself. Issue the following four commands in sequence to initiate the installation from the Jenkins repository:
 // this link will generate the list of commands to install jenkins :- https://pkg.jenkins.io/
